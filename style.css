@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    }
 
 header  {
     display: flex;
@@ -19,6 +19,7 @@ header  {
     text-decoration: none;
     color: black;
     font-family: sans-serif, Verdana, Geneva, Tahoma;
+
 }
 
 .logo img{
@@ -27,10 +28,11 @@ header  {
 }
 
 
-
 #menu_navegacion{
-    width: 500px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: end;
+    
 }
 
 ul, ol{
@@ -43,14 +45,17 @@ ul, ol{
     text-decoration: none;
     padding: 10px 15px;
     display: flex;
+    
 }
 
 .barra_navegacion li a:hover {
     background-color: #434343;
+    
 }
 
 .barra_navegacion > li {
     float:left ;
+    
 }
 
 .barra_navegacion li ul {
