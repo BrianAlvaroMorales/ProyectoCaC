@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* contenido del SECTION FORM */
+.contenido-sec-form{
+    border: 1PX solid purple;
+    height: auto;
+    background-color: blueviolet;
+    margin: 10px;
+
+}
+
+.contenido-form{
+    
+    border: 1px solid blue;
+    
+    
+    font-size: 16px;
+    margin: 10px auto 5px;
+    padding: 10px;
+    background-color: rgb(236, 151, 151);
+}
+
+.segundo-titulo{
+    color: black;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-size: medium;
+    background-color: blueviolet;
+    border: 1px solid palegreen;
+    
+    
+}
+
+.contenido-input{
+    color: yellowgreen;
+    border: 5px solid paleturquoise;
+    width: 100%;
+    display: block;
+    margin: 1rem auto;
+    padding: 10px 5px;
+    border-radius: 6px;
+}
+
+.contenido-label{
+    
+    color: aliceblue;
+    border: 1px solid orange;
+    
+    padding: 5px auto;
+}
